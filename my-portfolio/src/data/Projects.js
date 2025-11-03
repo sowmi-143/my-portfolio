@@ -23,8 +23,8 @@ const projects = [
     description: "Responsive form with MUI, validation, and GitHub Pages deployment.",
     tech: ["React", "MUI", "React Hook Form"],
     image: "/assets/images/login.png",
-    repo: "https://github.com/sowmi-143/login-signup-form",
-    live: " http://localhost:5182/"
+    repo: "https://github.com/sowmi-143/loginsignup-form",
+    live: " http://localhost:5173/"
   },
   {
     id: "proj-4",
@@ -32,8 +32,8 @@ const projects = [
     description: "Portfolio website built with React and MUI showcasing my skills.",
     tech: ["React", "MUI", "Vite"],
     image: "/assets/images/portfolio.png",
-    repo: "https://github.com/sowmi-143/portfolio-site",
-    live: " http://localhost:5181/"
+    repo: "https://github.com/sowmi-143/my-portfolio ",
+    live: " http://localhost:5174/"
   },
   {
     id: "proj-5",
@@ -42,7 +42,7 @@ const projects = [
     tech: ["React", "MUI", "DataGrid"],
     image: "/assets/images/table.png",
     repo: "https://github.com/sowmi-143/table-content-form",
-    live: " http://localhost:5183/table-content-form/"
+    live: " http://localhost:5175/table-content-form/"
   }
 
 ];

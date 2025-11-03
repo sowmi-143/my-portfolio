@@ -78,7 +78,7 @@ export default function Home() {
 
       {/* Availability Card */}
       <Card sx={{ p: 3, textAlign: "center", mt: 2 }}>
-        <Typography variant="subtitle1">Jobs</Typography>
+        <Typography variant="subtitle1">Job opporunity</Typography>
         <Typography variant="body2">
           Frontend Developer / full-time work <br />
             Available for hire! Let's connect.
