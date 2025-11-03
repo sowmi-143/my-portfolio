@@ -33,7 +33,7 @@ const projects = [
     tech: ["React", "MUI", "Vite"],
     image: "/assets/images/portfolio.png",
     repo: "https://github.com/sowmi-143/my-portfolio ",
-    live: " http://localhost:5174/"
+    live: " https://my-portfolio-form-git-main-sowmiya-rs-projects-8e808e7c.vercel.app"
   },
   {
     id: "proj-5",
