@@ -24,7 +24,7 @@ const projects = [
     tech: ["React", "MUI", "React Hook Form"],
     image: "/assets/images/login.png",
     repo: "https://github.com/sowmi-143/loginsignup-form",
-    live: " http://localhost:5173/"
+    live: "https://login-signup-form-ochre.vercel.app/"
   },
   {
     id: "proj-4",
