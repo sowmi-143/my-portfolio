@@ -8,7 +8,7 @@ export default function Navbar() {
     <AppBar position="static" color="transparent" elevation={0}>
       <Toolbar>
         <Typography variant="h6" component={RouterLink} to="/" sx={{ textDecoration: "none", color: "inherit", flexGrow: 1 }}>
-          YourName
+          Home
         </Typography>
 
         <Box sx={{ display: { xs: "none", md: "block" } }}>

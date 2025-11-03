@@ -3,7 +3,7 @@ import { TextField, Button, Box } from "@mui/material";
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
-  const [sent, setSent] = useState(false);
+  const [sent, setSent] = useState(true);
 
   function handleChange(e) {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -14,7 +14,7 @@ export default function ContactForm() {
     // For quick demo: open mailto. Replace with API or Netlify Forms in production.
     const subject = encodeURIComponent(`Portfolio contact from ${form.name}`);
     const body = encodeURIComponent(form.message + "\n\nContact: " + form.email);
-    window.location.href = `mailto:you@domain.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:iamsowmiya.rajkumar@gmail.com?subject=${subject}&body=${body}`;
     setSent(true);
   }
 

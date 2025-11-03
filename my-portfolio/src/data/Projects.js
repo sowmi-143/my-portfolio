@@ -5,7 +5,7 @@ const projects = [
     description: "Responsive weather app using OpenWeather API.",
     tech: ["React", "MUI", "API"],
     image: "/assets/images/weather.png",
-    repo: "https://github.com/yourname/weather-app",
+    repo: "https://github.com/sowmi-143/weather-app",
     live: "https://your-weather.netlify.app"
   },
   {
@@ -14,9 +14,37 @@ const projects = [
     description: "Product grid with cart interactions (mock).",
     tech: ["React", "MUI", "Context API"],
     image: "/assets/images/shop.png",
-    repo: "https://github.com/yourname/shop-ui",
-    live: ""
+    repo: "https://github.com/sowmi-143/shop-ui",
+    live: "https://your-ecommerce.netlify.app"
+  },
+  {
+    id: "proj-3",
+    title: "Login/Signup Form",
+    description: "Responsive form with MUI, validation, and GitHub Pages deployment.",
+    tech: ["React", "MUI", "React Hook Form"],
+    image: "/assets/images/login.png",
+    repo: "https://github.com/sowmi-143/login-signup-form",
+    live: " http://localhost:5182/"
+  },
+  {
+    id: "proj-4",
+    title: "My Portfolio",
+    description: "Portfolio website built with React and MUI showcasing my skills.",
+    tech: ["React", "MUI", "Vite"],
+    image: "/assets/images/portfolio.png",
+    repo: "https://github.com/sowmi-143/portfolio-site",
+    live: " http://localhost:5181/"
+  },
+  {
+    id: "proj-5",
+    title: "Table Content Form",
+    description: "A dynamic table content form built with React.",
+    tech: ["React", "MUI", "DataGrid"],
+    image: "/assets/images/table.png",
+    repo: "https://github.com/sowmi-143/table-content-form",
+    live: " http://localhost:5183/table-content-form/"
   }
+
 ];
 
 export default projects;
